@@ -1,0 +1,33 @@
+{
+  "disclaimer": "SIMULATED DATA — This is NOT a verified or officially recognized carbon credit. Created for educational/demonstration purposes only.",
+  "projectId": "PROJECT-002",
+  "projectName": "Amazon Reforestation Initiative",
+  "projectType": "Nature-Based Solution",
+  "subType": "Reforestation / Afforestation",
+  "country": "Brazil",
+  "region": "Amazonas",
+  "vintageYear": 2025,
+  "methodology": "AR-ACM0003 — Afforestation and reforestation of lands (Simulated)",
+  "simulatedVerificationStatus": "Simulated Verified",
+  "verificationBody": "Simulated Verification Body (Not a real verifier)",
+  "co2eQuantityTonnes": 25,
+  "creditStartDate": "2025-01-01",
+  "creditEndDate": "2025-12-31",
+  "projectDescription": "Reforestation of 500 hectares of degraded Amazon rainforest land, sequestering carbon through native tree species plantation. This entry uses simulated data for blockchain demonstration purposes.",
+  "additionalDocuments": [
+    "reforestation_plan_simulated.pdf",
+    "biodiversity_assessment_simulated.pdf",
+    "carbon_stock_analysis_simulated.pdf"
+  ],
+  "documentHash": "QmSimulatedIPFSHash_AmazonReforest_2025_def456",
+  "registryReference": "Simulated Registry — No real registry affiliation",
+  "coordinates": {
+    "latitude": -3.4653,
+    "longitude": -62.2159
+  },
+  "sustainableDevelopmentGoals": [
+    "SDG 13 — Climate Action",
+    "SDG 15 — Life on Land",
+    "SDG 8 — Decent Work and Economic Growth"
+  ]
+}

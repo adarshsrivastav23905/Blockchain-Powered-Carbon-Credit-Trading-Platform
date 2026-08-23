@@ -1,0 +1,32 @@
+{
+  "disclaimer": "SIMULATED DATA — This is NOT a verified or officially recognized carbon credit. Created for educational/demonstration purposes only.",
+  "projectId": "PROJECT-001",
+  "projectName": "Solar Energy Farm — Rajasthan",
+  "projectType": "Renewable Energy",
+  "subType": "Solar Photovoltaic",
+  "country": "India",
+  "region": "Rajasthan",
+  "vintageYear": 2026,
+  "methodology": "ACM0002 — Grid-connected electricity generation from renewable sources (Simulated)",
+  "simulatedVerificationStatus": "Simulated Verified",
+  "verificationBody": "Simulated Verification Body (Not a real verifier)",
+  "co2eQuantityTonnes": 10,
+  "creditStartDate": "2026-01-01",
+  "creditEndDate": "2026-12-31",
+  "projectDescription": "A 50 MW solar photovoltaic installation generating clean electricity and displacing fossil-fuel-based grid power. This entry uses simulated data for blockchain demonstration purposes.",
+  "additionalDocuments": [
+    "project_design_document_simulated.pdf",
+    "monitoring_report_simulated.pdf",
+    "verification_statement_simulated.pdf"
+  ],
+  "documentHash": "QmSimulatedIPFSHash_SolarFarm_Rajasthan_2026_abc123",
+  "registryReference": "Simulated Registry — No real registry affiliation",
+  "coordinates": {
+    "latitude": 26.9124,
+    "longitude": 70.9000
+  },
+  "sustainableDevelopmentGoals": [
+    "SDG 7 — Affordable and Clean Energy",
+    "SDG 13 — Climate Action"
+  ]
+}
