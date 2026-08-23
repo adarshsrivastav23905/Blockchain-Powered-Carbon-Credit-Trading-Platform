@@ -1,0 +1,29 @@
+{
+  "name": "blockchain-carbon-credit-trading-platform",
+  "version": "1.0.0",
+  "description": "Blockchain-based carbon credit trading prototype using Solidity for simulated credit issuance, marketplace trading, transparent ownership transfer, and irreversible credit retirement.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "node": "npx hardhat node",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost"
+  },
+  "keywords": [
+    "blockchain",
+    "solidity",
+    "carbon-credit",
+    "sustainability",
+    "ethereum",
+    "web3",
+    "smart-contract",
+    "hardhat"
+  ],
+  "author": "Student Project",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  }
+}
