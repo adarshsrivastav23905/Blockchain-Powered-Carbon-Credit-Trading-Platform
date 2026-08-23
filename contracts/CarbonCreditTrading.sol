@@ -105,8 +105,8 @@ contract CarbonCreditTrading {
     /// @notice Mapping of address → whether they are an authorized issuer
     mapping(address => bool) public authorizedIssuers;
 
-    /// @notice Mapping of creditId → CarbonCredit struct
-    mapping(uint256 => CarbonCredit) public carbonCredits;
+    /// @notice Mapping of creditId → CarbonCredit struct (private to avoid 13-element stack-too-deep getter; use getCreditDetails)
+    mapping(uint256 => CarbonCredit) private carbonCredits;
 
     /// @notice Mapping of listingId → Listing struct
     mapping(uint256 => Listing) public listings;
@@ -290,21 +290,20 @@ contract CarbonCreditTrading {
 
         uint256 creditId = nextCreditId;
 
-        carbonCredits[creditId] = CarbonCredit({
-            creditId: creditId,
-            projectName: _projectName,
-            projectType: _projectType,
-            country: _country,
-            vintageYear: _vintageYear,
-            tonnesCO2e: _tonnesCO2e,
-            issuer: msg.sender,
-            owner: _owner,
-            metadataHash: _metadataHash,
-            status: CreditStatus.ACTIVE,
-            createdAt: block.timestamp,
-            retiredAt: 0,
-            retirementReason: ""
-        });
+        CarbonCredit storage credit = carbonCredits[creditId];
+        credit.creditId = creditId;
+        credit.projectName = _projectName;
+        credit.projectType = _projectType;
+        credit.country = _country;
+        credit.vintageYear = _vintageYear;
+        credit.tonnesCO2e = _tonnesCO2e;
+        credit.issuer = msg.sender;
+        credit.owner = _owner;
+        credit.metadataHash = _metadataHash;
+        credit.status = CreditStatus.ACTIVE;
+        credit.createdAt = block.timestamp;
+        credit.retiredAt = 0;
+        credit.retirementReason = "";
 
         ownerCredits[_owner].push(creditId);
         nextCreditId++;
