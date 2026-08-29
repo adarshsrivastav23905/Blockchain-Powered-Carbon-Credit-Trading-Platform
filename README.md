@@ -492,7 +492,7 @@ Through this project, I learned:
 
 ---
 
-## Author
+## ADARSH
 
 **Student Project** — Blockchain Course
 
