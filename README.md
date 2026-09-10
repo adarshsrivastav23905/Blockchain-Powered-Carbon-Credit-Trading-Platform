@@ -9,7 +9,7 @@
 
 > ⚠️ **Disclaimer**: All carbon credits in this project are **simulated** for educational purposes. This project does **not** create legally recognized or officially verified carbon credits. Real systems require trusted Measurement, Reporting, and Verification (MRV) processes.
 
----
+---    
    
 ## 📋 Table of Contents
 
