@@ -1,5 +1,5 @@
 # 🌍 Blockchain-Powered Carbon Credit Trading Platform
-
+   
 > A blockchain-based carbon credit trading prototype using Solidity for simulated credit issuance, marketplace trading, transparent ownership transfer, and irreversible credit retirement.
    
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.20-363636?logo=solidity)](https://soliditylang.org/)
